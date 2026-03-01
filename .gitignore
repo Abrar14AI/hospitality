@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+bin/
+
+# Secrets and Environment Variables
+.env
+.env.*
+
+# Data and Large Files (Crucial for your project)
+data/
+*.csv
+*.xlsx
+*.db
+*.sqlite
+
+# Output and Logs
+repomix-output.txt
+*.log
+
+# OS files
+.DS_Store
