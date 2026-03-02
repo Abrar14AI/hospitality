@@ -1,28 +1,24 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*.class
+# Environment
+.env
+.env.local
+.env.production
 
-# Virtual Environment
+# Python
+__pycache__/
+*.pyc
+*.pyo
 .venv/
 venv/
 env/
-bin/
 
-# Secrets and Environment Variables
-.env
-.env.*
+# IDE
+.vscode/
+.idea/
+*.swp
 
-# Data and Large Files (Crucial for your project)
-data/
-*.csv
-*.xlsx
-*.db
-*.sqlite
+# Data (if CSVs are large / sensitive)
+data/*.csv
 
-# Output and Logs
-repomix-output.txt
-*.log
-
-# OS files
+# OS
 .DS_Store
+Thumbs.db
