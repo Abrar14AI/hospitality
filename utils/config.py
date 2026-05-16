@@ -48,7 +48,7 @@ def _get_secret(key):
 # ════════════════════════════════════════════════
 CLEAN_DB_URI = _get_secret("CLEAN_SUPABASE_DB_URI")
 OPENROUTER_API_KEY = _get_secret("OPENROUTER_API_KEY")
-LLM_MODEL = "openrouter/x-ai/grok-4.1-fast"
+LLM_MODEL = "openrouter/x-ai/grok-4.3"
 LLM_BASE_URL = "https://openrouter.ai/api/v1"
 
 if not CLEAN_DB_URI:
